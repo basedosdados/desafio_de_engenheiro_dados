@@ -43,7 +43,7 @@ Se a solução implementada estiver correta o seguinte resultado será imprimido
 
 ## Dica
 
-Uma boa forma de abordar esse problema é criar um código em python para fazer a extração, carregamento dos dados e transformação e, depois de se certificar que o código funciona localmente, o candidato implementa o código em Prefect e roda a imagem do Docker. Para entender como implementar o código em Prefect, o candidato pode ver como estão implementadas pipelines da Base dos Dados em produção no repositório [Pipelines](https://github.com/basedosdados/pipelines). Também é possível entender melhor sobre a parte de materialização da tabela em DBT acessando nosso repositório de [Queries](https://github.com/basedosdados/pipelines). Outra fonte de informações são as Wikis dos nossos repositórios. Boa sorte!
+Uma boa forma de abordar esse problema é criar um código em python para fazer a extração, carregamento dos dados e transformação e, depois de se certificar que o código funciona localmente, o candidato implementa o código em Prefect e roda a imagem do Docker. Para entender como implementar o código em Prefect, o candidato pode ver como estão implementadas pipelines da Base dos Dados em produção no repositório [Pipelines](https://github.com/basedosdados/pipelines). Também é possível entender melhor sobre a parte de materialização da tabela em DBT acessando nosso repositório de [Queries](https://github.com/basedosdados/queries). Outra fonte de informações são as Wikis dos nossos repositórios. Boa sorte!
 
 
 
