@@ -1,0 +1,21 @@
+ans: 
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db
+      user: postgres
+      password: root
+      port: 5432
+      dbname: basedosdados_dev
+      schema: public
+      threads: 2
+    prod:
+      type: postgres
+      host: db
+      user: postgres
+      password: root
+      port: 5432
+      dbname: basedosdados_dev
+      schema: public
+      threads: 2

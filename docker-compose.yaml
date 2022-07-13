@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:14-alpine
+    container_name: bdd_db
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=basedosdados_dev
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready", "POSTGRES_DB", "POSTGRES_USER"]
+      interval: 10s
+      retries: 5
+      timeout: 45s
+
+  app:
+    build:
+      context: pipeline
+    container_name: bdd_app
+    depends_on:
+      db:
+        condition: service_healthy
