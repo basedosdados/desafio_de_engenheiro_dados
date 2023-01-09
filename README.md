@@ -1,4 +1,4 @@
-# Desafio vaga Data Engineer
+# Desafio Vaga Data Engineer
 
 Este desafio foi preparado de modo a replicar localmente a essência da arquitetura de dados da Base dos Dados. Assim, o candidato que se empenhar em resolver a questão proposta estará, automaticamente, estudando para entender melhor nossa infraestrutura e se preparando para contribuir ativamente nos nossos repositórios. Um efeito colateral de se construir um exercício abrangendo toda a arquitetura da BD é que o exercício ficou relativamente longo. Essa característca, contudo, não deve desencorajar o candidato. Todo o código enviado como resposta será considerado, ainda que o candidato não consiga concluir o exercício. Seguem-se instruções para o exercício.
 
@@ -45,5 +45,17 @@ Se a solução implementada estiver correta o seguinte resultado será imprimido
 
 Uma boa forma de abordar esse problema é criar um código em python para fazer a extração, carregamento dos dados e transformação e, depois de se certificar que o código funciona localmente, o candidato implementa o código em Prefect e roda a imagem do Docker. Para entender como implementar o código em Prefect, o candidato pode ver como estão implementadas pipelines da Base dos Dados em produção no repositório [Pipelines](https://github.com/basedosdados/pipelines). Também é possível entender melhor sobre a parte de materialização da tabela em DBT acessando nosso repositório de [Queries](https://github.com/basedosdados/queries). Outra fonte de informações são as Wikis dos nossos repositórios. Boa sorte!
 
+## Avaliação
+
+Você será avaliado por:
+- Cumprimento dos objetivos do desafio
+- Qualidade do código
+- Qualidade da documentação
 
 
+## Forma de Envio da Solução
+
+- Faça um fork desse repositório
+- Resolva o desafio da melhor maneira possível
+- Tenha certeza que a solução é reprodutível em qualquer outra máquina
+- Reponda o formulário com o link do seu repositório. Não esqueça de deixar ele público. 
