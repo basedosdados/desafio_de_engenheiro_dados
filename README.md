@@ -49,6 +49,7 @@ Uma boa forma de abordar esse problema é criar um código em python para fazer 
 
 Você será avaliado por:
 - Cumprimento dos objetivos do desafio
+- Organização geral do repositório
 - Qualidade do código
 - Qualidade da documentação
 
