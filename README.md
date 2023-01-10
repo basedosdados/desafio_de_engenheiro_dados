@@ -8,7 +8,7 @@ Este desafio foi preparado de modo a replicar localmente a essência da arquitet
 
 ## Informações auxiliares:
 
-Os dados de operadoras de saúde encontram-se no seguinte link: http://ftp.dadosabertos.ans.gov.br/FTP/Base_de_dados/Microdados/dados_dbc/beneficiarios/operadoras/
+Os dados de operadoras de saúde encontram-se no seguinte link: https://dadosabertos.ans.gov.br/FTP/Base_de_dados/Microdados/dados_dbc/beneficiarios/operadoras/
 
 A categoria dos planos é representada pela variável `cd_contr`. A tabela abaixo mostra o que cada código significa:
 
