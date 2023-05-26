@@ -1,4 +1,4 @@
-# Desafio Vaga Data Engineer
+# Desafio Engenharia
 
 Este desafio foi preparado de modo a replicar localmente a essência da arquitetura de dados da Base dos Dados. Assim, o candidato que se empenhar em resolver a questão proposta estará, automaticamente, estudando para entender melhor nossa infraestrutura e se preparando para contribuir ativamente nos nossos repositórios. Um efeito colateral de se construir um exercício abrangendo toda a arquitetura da BD é que o exercício ficou relativamente longo. Essa característca, contudo, não deve desencorajar o candidato. Todo o código enviado como resposta será considerado, ainda que o candidato não consiga concluir o exercício. Seguem-se instruções para o exercício.
 
